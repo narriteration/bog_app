@@ -1,0 +1,7 @@
+Create New Bog Creature
+
+<%= form_for @creature do |f| %>
+  Name: <%= f.text_field :name %><br />
+  Description : <%= f.text_field :description %><br />
+  <%= f.submit "Create" %>
+<% end %>
